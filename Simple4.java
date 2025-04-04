@@ -8,9 +8,13 @@ public class Simple4 {
         if(num>0){
             System.err.println("The number is Positive");
         }
+        else if(num==0){
+            System.out.println("The Number is nethier negative or Positive");
+
+        }
         else
         System.out.println("The Number is Negative");
-
+        
     }
     
 }
